@@ -1,4 +1,4 @@
-For the operations that rely on calculator accuracy rememeber to set the calculator to 9 decimal places, go to the calculator settings, go to `Fix` and then sellect 9.
+For the operations that rely on calculator accuracy, so rememeber to set the calculator to 9 decimal places, go to the calculator settings, go to `Fix` and then sellect 9.
 
 | Computer Operation| Algebraic representation|
 |--------------|-----------|
