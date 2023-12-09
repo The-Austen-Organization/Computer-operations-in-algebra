@@ -3,6 +3,6 @@ For the operations that rely on calculator accuracy, so rememeber to set the cal
 | Computer Operation| Algebraic representation|
 |--------------|-----------|
 | absolute value, $abs(x)$ | $f(x) = \sqrt{x^2}$ |
-| floor function, $\lfloor x \rfloor$ | $f(x) = Rnd((x - 0.499999999) / 10^9) * 10^9$ |
-| ceiling function, $\lceil x \rceil$ | $f(x) = Rnd((x + 0.499999999) / 10^9) * 10^9$ |
-| modulo, $x$ $mod$ $y$ | $f(x, y) = \sqrt{(y(x / y - Rnd((x / y - 0.499999999) / 10^9) * 10^9))^2}$ |
+| floor function, $\lfloor x \rfloor$ | $f(x) = Rnd(\frac{x - 0.499999999}{10^9}) * 10^9$ |
+| ceiling function, $\lceil x \rceil$ | $f(x) = Rnd(\frac{x + 0.499999999}{10^9}) * 10^9$ |
+| modulo, $x$ $mod$ $y$ | $f(x, y) = \sqrt{(y(\frac{x}{y} - Rnd(\frac{\frac{x}{y} - 0.499999999}{10^9}) * 10^9))^2}$ |
