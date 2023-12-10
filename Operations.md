@@ -1,4 +1,4 @@
-For the operations that rely on calculator accuracy, so rememeber to set the calculator to 9 decimal places, go to the calculator settings, go to `Fix` and then sellect 9.
+For the operations that rely on calculator accuracy, so rememeber to set the calculator to 9 decimal places, go to the calculator settings, go to `Fix` and then sellect 9. If you are using Desmos to graph out this programs use a `, 9` after the value of x that you want to round, for example `round(10/3, 9)`, what the equation in the back did was essencially round 10/3 to 9 decimal places.
 
 | Computer Operation| Algebraic representation|
 |--------------|-----------|
